@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family:300=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+/*---------------------------------- Heading */
+body {
+  font-family: Robotto;
+  color: #777777;
+}
+
+/*.navigation-menu li a {
+    font-family: DynaPuff;
+    color:green;
+    letter-spacing: 2px;
+    text-decoration: none;
+} */
+
+h2 {
+    text-transform: uppercase;
+    color: coral;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: DynaPuff;
+}
+
+#title {
+    margin-top: 15px;
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    margin-top: 15px;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-family: DynaPuff;
+    letter-spacing: 2px;
+}
+
+#title #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px; 
+}
+
+#menu a {
+  text-decoration: none;
+  color:aquamarine; 
+}
+
+#menu a:hover{
+   color:#777777;
+}
+
+/*---------------------------------- section */
+
+.photo {
+    background: url("../images/dog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
