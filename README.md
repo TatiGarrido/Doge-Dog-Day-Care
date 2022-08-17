@@ -15,6 +15,10 @@
    4. As a potencial customer, I want to understand what services they company offer.
    5. As a potencial customer, I expect them to get in touch with me as soon as I send a message throught the website.
 
+ ## Credits
+ *Media
+ 1. The photos used on the website are from this open source site: https://unsplash.com/
+
    
    
 

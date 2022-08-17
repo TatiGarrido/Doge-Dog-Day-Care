@@ -28,21 +28,23 @@ h2 {
 }
 
 #title {
-    margin-top: 15px;
+   
     float: left;
     font-size: 280%;
 }
 
 #menu {
-    margin-top: 15px;
+  
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 2px;
     font-family: DynaPuff;
     letter-spacing: 2px;
+
+   
 }
 
-#title #menu{
+#title, #menu{
     line-height: 75px;
 }
 
@@ -53,7 +55,7 @@ h2 {
 
 #menu a {
   text-decoration: none;
-  color:aquamarine; 
+  color: coral; 
 }
 
 #menu a:hover{
@@ -62,10 +64,52 @@ h2 {
 
 /*---------------------------------- section */
 
-.photo {
-    background: url("../images/dog.jpg");
+#photo {
+    background: rgba(0, 0, 0, 0.4) url("../images/dog.jpg") ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    /*background-blend-mode: darken; */
+
+    animation-name: photo-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+   
 }
+
+#photo-movement {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes photo-zoom {
+    from{
+transform: scale(1);
+    }
+    to{
+transform: scale(1.1)
+    }
+}
+
+/*---------------------------------- footer*/
+
+footer {
+    height: 150px;
+}
+
+.social{
+    text-align: center;
+    font-size: 160%;
+    margin: 3%;
+    padding: 5%;
+    color:
+}
+
+.social :hover {
+    color: coral;
+}
+
