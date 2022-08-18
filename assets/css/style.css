@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family:300=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -64,7 +64,7 @@ h2 {
 
 /*---------------------------------- section */
 
-#photo {
+ /*#photo {
     background: rgba(0, 0, 0, 0.4) url("../images/dog.jpg") ;
     background-size: cover;
     background-position: center;
@@ -72,18 +72,57 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    /*background-blend-mode: darken; */
+    background-blend-mode: darken; 
 
     animation-name: photo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
    
-}
+ }*/
 
+#photo {
+    clear:both;
+    background: url("../images/dog.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    
+
+    animation-name: photo-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+} 
+  #text, #text h2 {
+    color:black;
+    font-size: 15px;
+  }
+
+  #text {
+    font-size: 130%;
+    font-family: Roboto;
+    letter-spacing: 4px;
+
+    width: 200px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(227, 148, 146, 0.3);
+
+    bottom: 60px;
+    left: 50px;
+
+    position: absolute;
+
+}
+    
 #photo-movement {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position:relative;
 }
 
 @keyframes photo-zoom {
@@ -95,21 +134,28 @@ transform: scale(1.1)
     }
 }
 
-/*---------------------------------- footer*/
+/*---------------------------------- footer */
 
 footer {
-    height: 150px;
+    height: 60px;
 }
 
 .social{
     text-align: center;
-    font-size: 160%;
-    margin: 3%;
-    padding: 5%;
-    color:
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 1%;
+    color: coral;
 }
 
 .social :hover {
-    color: coral;
+    color: red;
 }
 

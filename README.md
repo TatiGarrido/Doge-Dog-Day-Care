@@ -9,16 +9,50 @@
  ## User Experience (UX)
  * User stories 
     
-   1. As a potencial customer I want to be able to navigate easily and quickly understanding the purpose of the website.
-   2. As a potencial customer, I want to easily find the social media, photos and testimonials to help me make a decision.
-   3. As a potencial customer, I want verify what are their pet friendly places suggestions.
-   4. As a potencial customer, I want to understand what services they company offer.
-   5. As a potencial customer, I expect them to get in touch with me as soon as I send a message throught the website.
+   1. As a potencial customer I want being able to navigate easily and quickly understanding the purpose of the website.
+   2. As a potencial customer, I want being able to navigate from the website to social media.
+   3. As a potencial customer, I want being able to see the photos and read the testimonials, to help me make a decision.
+   4. As a potencial customer, I want understanding what services are available through the company.
+   5. As a potencial customer, I expect to have an answer when I send a message through the website.
+
+   *Design
+
+
+   *Wireframes
+
+
+   ## Features
+
+   ## Technologies Used
+
+ *Frameworks, Libraries & Programs Used
+
+ ## Testing
+
+ *Testing User Stories from User Experience (UX) Section
+
+ *Further Testing
+
+ *Known Bugs
+
+ ## Deployment
+ *GitHub Pages
+
+ *Forking the GitHub Repository
+
+ *Making a Local Clone
+
 
  ## Credits
+ *Code
+
+ *Content
+    *All content was written by the developer.
+
  *Media
  1. The photos used on the website are from this open source site: https://unsplash.com/
 
+## Acknowledgements
    
    
 
