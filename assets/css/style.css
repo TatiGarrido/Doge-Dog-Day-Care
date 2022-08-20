@@ -9,7 +9,7 @@
 /*---------------------------------- Heading */
 body {
   font-family: Robotto;
-  color: #777777;
+  color: coral;
 }
 
 /*.navigation-menu li a {
@@ -19,7 +19,7 @@ body {
     text-decoration: none;
 } */
 
-h2 {
+#title {
     text-transform: uppercase;
     color: coral;
     letter-spacing: 3px;
@@ -45,7 +45,7 @@ h2 {
 }
 
 #title, #menu{
-    line-height: 75px;
+    line-height: 55px;
 }
 
 #menu li {
@@ -59,26 +59,10 @@ h2 {
 }
 
 #menu a:hover{
-   color:#777777;
+   color: brown;
 }
 
 /*---------------------------------- section */
-
- /*#photo {
-    background: rgba(0, 0, 0, 0.4) url("../images/dog.jpg") ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-blend-mode: darken; 
-
-    animation-name: photo-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-   
- }*/
 
 #photo {
     clear:both;
@@ -94,22 +78,22 @@ h2 {
 
 } 
   #text, #text h2 {
-    color:black;
-    font-size: 15px;
+    color: white;
+    font-size: 20px; 
   }
 
   #text {
     font-size: 130%;
-    font-family: Roboto;
+    font-family: Robotto;
     letter-spacing: 4px;
 
     width: 200px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(227, 148, 146, 0.3);
+    background-color: rgba(227, 148, 146, 0.6);
 
     bottom: 60px;
     left: 50px;
@@ -150,12 +134,109 @@ footer {
 
 .social i {
     font-size: 150%;
-    margin: 1%;
+    margin: 0;
     padding: 1%;
     color: coral;
 }
 
 .social :hover {
-    color: red;
+    color: brown;
 }
 
+/*---------------------------------- Testmonials*/
+
+#testmonials {
+    color: black;
+    font-family: Roboto;
+   
+}
+
+h3 {
+    font-family: Dynapuff;
+    color: coral;
+}
+
+#kita {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+} 
+
+#lucio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+} 
+#dog-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+
+#pomie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+
+img, p {
+    display: inline-block;
+    
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+} /* isso deixa o texto ao lado do paragrafo */
+
+#left-testmonial {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 45%;
+    float: left;
+    color: black;
+    background-color: yellow;
+}
+
+#right-testmonial {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 45%;
+    float: right;
+    background-color: purple;
+    
+}
+
+.left-side {
+    padding-top: 10px;
+    width: 50%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    float: left;
+
+}
+
+.right-side{
+    padding-top: 10px;
+    width: 50%;
+    line-height: 20px;
+   clear: both;
+   margin-bottom: 50px;
+    float:right;
+}
