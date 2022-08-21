@@ -146,14 +146,23 @@ footer {
 /*---------------------------------- Testmonials*/
 
 #testmonials {
+    clear: both;
     color: black;
     font-family: Roboto;
-   
 }
 
 h3 {
     font-family: Dynapuff;
     color: coral;
+    text-align: center;
+    
+}
+
+p {
+    width: 180%;
+    color: black;
+    font-size: 20px;
+    
 }
 
 #kita {
@@ -191,24 +200,25 @@ h3 {
     float: left;
 }
 
-img, p {
+/*img, p {
     display: inline-block;
-    
-} 
+} */
+
 
 .container {
     display: flex;
     align-items: center;
 } /* isso deixa o texto ao lado do paragrafo */
 
+
 #left-testmonial {
     padding-top: 20px;
     margin-top: 10px;
     margin-left: 20px;
-    width: 45%;
+    width: 50%;
     float: left;
     color: black;
-    background-color: yellow;
+  
 }
 
 #right-testmonial {
@@ -216,9 +226,9 @@ img, p {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 45%;
+    width: 50%;
     float: right;
-    background-color: purple;
+    
     
 }
 
@@ -229,7 +239,6 @@ img, p {
     clear: both;
     margin-bottom: 50px;
     float: left;
-
 }
 
 .right-side{
@@ -240,3 +249,5 @@ img, p {
    margin-bottom: 50px;
     float:right;
 }
+
+
