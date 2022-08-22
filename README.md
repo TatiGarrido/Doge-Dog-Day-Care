@@ -34,6 +34,8 @@
  *Further Testing
 
  *Known Bugs
+ my footer is by my header
+ 
 
  ## Deployment
  *GitHub Pages

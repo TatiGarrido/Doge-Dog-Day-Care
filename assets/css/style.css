@@ -121,8 +121,21 @@ transform: scale(1.1)
 /*---------------------------------- footer */
 
 footer {
-    height: 60px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
+
+ /*footer {
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}*/
 
 .social{
     text-align: center;
@@ -162,6 +175,8 @@ p {
     width: 180%;
     color: black;
     font-size: 20px;
+    margin-bottom: 20px;
+
     
 }
 
@@ -172,6 +187,7 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
+
 } 
 
 #lucio {
@@ -181,7 +197,9 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
+    
 } 
+
 #dog-img {
     width: 200px;
     height: 200px;
@@ -215,39 +233,82 @@ p {
     padding-top: 20px;
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 10px;
     width: 50%;
     float: left;
     color: black;
+    background-color: rgba(227, 148, 146, 0.6);
   
 }
+
 
 #right-testmonial {
     padding-top: 20px;
     margin-top: 10px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 50%;
     float: right;
-    
+    background-color: rgba(227, 148, 146, 0.6);
     
 }
 
 .left-side {
     padding-top: 10px;
     width: 50%;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     float: left;
 }
 
 .right-side{
     padding-top: 10px;
     width: 50%;
-    line-height: 20px;
-   clear: both;
-   margin-bottom: 50px;
+    line-height: 30px;
+    clear: both;
+   margin-bottom: 20px;
     float:right;
 }
 
+/*---------------------------------- Contact us*/
+
+.contactus {
+    
+    font-size: 15px;
+    margin-top: 140px;
+    color: black;
+    max-width: 400px;
+    position: absolute;
+    left: 30%;
+    padding: 30px;
+    background-color: rgba(227, 148, 146, 0.6);
+  
+    border: 1px solid black;
+    
+}
+
+.input {
+    
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+}
+
+#howcanwehelpyou {
+    height: 100px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    background-color: white;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    margin-left: 150px;
+
+}
 
