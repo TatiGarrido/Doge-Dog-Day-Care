@@ -35,6 +35,8 @@
 
  *Known Bugs
  my footer is by my header
+
+ footer no mobile, is in the middle of the page.
  
 
  ## Deployment
@@ -52,30 +54,13 @@
     *All content was written by the developer.
 
  *Media
- 1. The photos used on the website are from this open source site: https://unsplash.com/
+ 1. The dog's photos used on the website are from this open source site: https://unsplash.com/
+
+ 2- The image background on contact us is from this open source site:
+ 
+https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword
+
+<a href='https://www.freepik.com/vectors/watercolor-dog'>Watercolor dog vector created by rawpixel.com - www.freepik.com</a>
 
 ## Acknowledgements
-   
-   
-
-
-   
-
-
- 
- 
-
-
- 
- 
-
-
-
-
-
-
- 
-
-
-
-
+  

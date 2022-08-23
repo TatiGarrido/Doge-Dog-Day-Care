@@ -124,7 +124,7 @@ footer {
     position:absolute;
     bottom: 0;
     width: 100%;
-}
+} 
 
  /*footer {
     position: absolute;
@@ -135,7 +135,7 @@ footer {
     height: 100px;    
     text-align: center;
     line-height: 100px;
-}*/
+} */
 
 .social{
     text-align: center;
@@ -162,12 +162,16 @@ footer {
     clear: both;
     color: black;
     font-family: Roboto;
+    background-color:  rgba(227, 148, 146, 0.6); 
+    
+    
 }
 
 h3 {
     font-family: Dynapuff;
     color: coral;
     text-align: center;
+    margin-left: -100px;
     
 }
 
@@ -176,8 +180,6 @@ p {
     color: black;
     font-size: 20px;
     margin-bottom: 20px;
-
-    
 }
 
 #kita {
@@ -200,7 +202,7 @@ p {
     
 } 
 
-#dog-img {
+#dog-img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -230,31 +232,29 @@ p {
 
 
 #left-testmonial {
+    width: 48%;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 10px;
-    width: 50%;
     float: left;
     color: black;
-    background-color: rgba(227, 148, 146, 0.6);
-  
 }
 
 
 #right-testmonial {
+    width: 48%;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 10px;
-    width: 50%;
-    float: right;
-    background-color: rgba(227, 148, 146, 0.6);
-    
+    float: top right;
 }
 
+
+
 .left-side {
-    padding-top: 10px;
+    padding-top: 5px;
     width: 50%;
     line-height: 30px;
     clear: both;
@@ -271,20 +271,20 @@ p {
     float:right;
 }
 
+
 /*---------------------------------- Contact us*/
 
 .contactus {
     
     font-size: 15px;
-    margin-top: 140px;
+    margin-top: 240px;
     color: black;
     max-width: 400px;
     position: absolute;
     left: 30%;
     padding: 30px;
-    background-color: rgba(227, 148, 146, 0.6);
-  
-    border: 1px solid black;
+    
+   
     
 }
 
@@ -309,6 +309,17 @@ p {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     margin-left: 150px;
-
 }
 
+.button:hover {
+    color: brown;
+}
+
+#background-img {
+    clear:both;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+
+}
