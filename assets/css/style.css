@@ -12,13 +12,6 @@ body {
   color: coral;
 }
 
-/*.navigation-menu li a {
-    font-family: DynaPuff;
-    color:green;
-    letter-spacing: 2px;
-    text-decoration: none;
-} */
-
 #title {
     text-transform: uppercase;
     color: coral;
@@ -39,9 +32,7 @@ body {
     list-style-type: none;
     letter-spacing: 2px;
     font-family: DynaPuff;
-    letter-spacing: 2px;
-
-   
+    letter-spacing: 2px;  
 }
 
 #title, #menu{
@@ -162,8 +153,7 @@ footer {
     clear: both;
     color: black;
     font-family: Roboto;
-    background-color:  rgba(227, 148, 146, 0.6); 
-    
+    background-color: rgba(244, 166, 116, 0.62);
     
 }
 
@@ -289,7 +279,6 @@ p {
 }
 
 .input {
-    
     color: black;
     width: 100%;
     height: 25px;
@@ -320,8 +309,8 @@ p {
     clear:both;
     background: url("../images/background.jpg");
     background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-position: top;
+    height: 600px;
 }
 
 /*---------------------------------- /tablet
@@ -344,14 +333,41 @@ p {
     padding: 0;
    }
 } */
+ 
+
+/*---------------------------------- /Large monitors*/
 
 @media screen and (min-width: 1393px ) {
     #photo {
      width: 100%;
      height: 1000px;
-    
+     margin-top: 50px;
+     margin-bottom: 50px;
+     background-size: cover;
+     background-position: center;
+     clear: both;
 
+     animation-name: photo-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+     
     } 
+
+    #photo-movement {
+        height: 850px;
+        width: 100%;
+        overflow: hidden;
+        position:relative;
+    }
+    
+    @keyframes photo-zoom {
+        from{
+    transform: scale(1);
+        }
+        to{
+    transform: scale(1.1)
+        }
+    }
  
     #testmonials {
      padding: 30px;
@@ -361,33 +377,25 @@ p {
     #left-testmonial {
         float: left;
         width: 45%;
-        padding: 0;
+        padding: 20px;
         float: left;
+        padding-top: 5px;
+        line-height: 30px;
+        clear: both;
+        margin-bottom: 70px;
+        margin-top: 40px;
     }
     
     #right-testmonial {
      width: 45%;
-     padding: 0;
+     padding: 20px;
      float: top right;
+     padding-top: 5px;
+     line-height: 30px;
+     margin-bottom: 70px;
+     margin-top: 40px;
     }
 
-    /*.left-side {
-    padding-top: 5px;
-    width: 50%;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 20px;
-    float: left;
-    }
-
-    .right-side{
-        padding-top: 10px;
-        width: 50%;
-        line-height: 30px;
-        clear: both;
-       margin-bottom: 20px;
-        float: top right;
-    } */
 
     h3 {
         text-align: center;
@@ -400,4 +408,110 @@ p {
         margin-bottom: 20px;
         margin-top: 30px;
     }
+
+    #background-img {
+        clear:both;
+        background: url("../images/background.jpg");
+        background-size: cover;
+        background-position: top;
+        margin-top: 200px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .contactus {
+        font-size: 15px;
+        margin-top: 340px;
+        margin-left: 120px;
+        color: black;
+        max-width: 400px;
+        position: absolute;
+        left: 30%;
+        padding: 30px;
+    }
+    footer {
+       position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        line-height: 80px;
+    }
+
+    .social{
+        text-align: center;
+    }
+
+    #text, #text h2 {
+        color: white;
+        font-size: 20px; 
+      }
+    
+      #text {
+        font-size: 200%;
+        font-family: Robotto;
+        letter-spacing: 6px;
+    
+        width: 300px;
+        height: 200px;
+    
+        padding-top: 30px;
+        padding-left: 10px;
+    
+        background-color: rgba(227, 148, 146, 0.6);
+    
+        bottom: 250px;
+        left: 50px;
+    
+        position: absolute;
+    
+    }      
  }
+
+ @media screen and (max-width: 360px) {
+
+    #testmonials {
+        padding: 50px;
+        margin-top: 0;
+       } 
+
+       h3 {
+        text-align: center;
+        margin-left: 40px;
+       }
+
+       p {
+        width: 320%;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+       }
+
+   #background-img {
+    clear:both;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    margin-top: 90px;
+    height: 470px;
+    width: 100%;
+}
+
+.contactus {
+    font-size: 15px;
+    margin-top: 290px;
+    margin-left: -30px;
+    color: black;
+    max-width: 400px;
+    position: absolute;
+    left: 30%;
+    padding: 20px;
+}
+
+.button {
+    margin-top: -10px;
+    margin-left: 110px;
+    padding: 10px 20px 10px 20px;
+}
+
+
+    
+}
