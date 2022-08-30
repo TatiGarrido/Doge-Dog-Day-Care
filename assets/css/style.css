@@ -6,9 +6,12 @@
     border: 0; 
 }
 
-/*---------------------------------- Heading */
+/*----------------------------------  
+               Heading 
+---------------------------------- */
+
 body {
-  font-family: Robotto;
+  font-family: Robotto, sans-serif;
   color: coral;
 }
 
@@ -17,11 +20,7 @@ body {
     color: coral;
     letter-spacing: 3px;
     text-decoration: none;
-    font-family: DynaPuff;
-}
-
-#title {
-   
+    font-family: DynaPuff, sans-serif;
     float: left;
     font-size: 280%;
 }
@@ -31,7 +30,7 @@ body {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 2px;
-    font-family: DynaPuff;
+    font-family: DynaPuff, sans-serif;
     letter-spacing: 2px;  
 }
 
@@ -53,7 +52,9 @@ body {
    color: brown;
 }
 
-/*---------------------------------- section */
+/*----------------------------------  
+               section 
+---------------------------------- */
 
 #photo {
     clear:both;
@@ -62,7 +63,6 @@ body {
     background-position: center;
     height: 900px;
     
-
     animation-name: photo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -109,24 +109,17 @@ transform: scale(1.1)
     }
 }
 
-/*---------------------------------- footer */
+ /*----------------------------------  
+               footer 
+---------------------------------- */
+
 
 footer {
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-} 
-
- /*footer {
     position: absolute;
     bottom: 0;
-    background-color: blue;
-    color: #FFF;
     width: 100%;
-    height: 100px;    
-    text-align: center;
-    line-height: 100px;
-} */
+    margin-bottom: -5px; /* introduzi uma margem negativa pq os icones sociais estavam sob a foto*/
+} 
 
 .social{
     text-align: center;
@@ -147,7 +140,9 @@ footer {
     color: brown;
 }
 
-/*---------------------------------- Testmonials*/
+/*----------------------------------  
+               Testmonials 
+---------------------------------- */
 
 #testmonials {
     clear: both;
@@ -170,6 +165,7 @@ p {
     color: black;
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 #kita {
@@ -261,29 +257,29 @@ p {
 }
 
 
-/*---------------------------------- Contact us*/
+
+/*----------------------------------  
+               Contact Us 
+---------------------------------- */
 
 .contactus {
     
     font-size: 15px;
     margin-top: 240px;
     color: black;
-    max-width: 400px;
-    position: absolute;
+    max-width: 400px;  
     left: 30%;
     padding: 30px;
+    position: absolute;
 }
  
-.contactus::selection {
- border-color: blueviolet;
-}
-
 .input {
     color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
+
 }
 
 
@@ -311,31 +307,46 @@ p {
     background-size: cover;
     background-position: top;
     height: 600px;
+    
+   
 }
 
-/*---------------------------------- /tablet
 
-@media screen and (max-width: 1393px ) {
-   #photo {
-    width: 100%;
-    height: 1200px;
-   /* margin: 0 auto; 
-   } 
 
-   #testmonials {
-    padding: 30px 0;
-    margin-top: 0;
-   }
+/*----------------------------------  
+          Tablet
+---------------------------------- */
 
-   #left-testmonial, #right-testmonial {
-    width: 100%;
-    float: left;
-    padding: 0;
-   }
-} */
- 
+@media screen and (max-width: 1200px ) {
 
-/*---------------------------------- /Large monitors*/
+    #testmonials {
+        padding: 60px;
+        margin-top: 0;
+        text-align: center;
+       } 
+
+       h3 {
+        text-align: center;
+        margin-left: 40px;
+       }
+
+       p {
+        width: 320%;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 5px 0 5px;
+
+       }
+
+    
+    
+} 
+
+/*----------------------------------  
+          Large Monitors
+---------------------------------- */
 
 @media screen and (min-width: 1393px ) {
     #photo {
@@ -415,7 +426,7 @@ p {
         background-size: cover;
         background-position: top;
         margin-top: 200px;
-        height: 900px;
+        height: 850px;
         width: 100%;
     }
 
@@ -429,6 +440,7 @@ p {
         left: 30%;
         padding: 30px;
     }
+
     footer {
        position: absolute;
         bottom: 10px;
@@ -466,12 +478,37 @@ p {
     
     }      
  }
+ /*----------------------------------  
+            Mobile 
+---------------------------------- */
 
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 943px) {
 
+    #photo {
+        height: 550px; 
+        width: 100%;
+    } 
+
+    #text {
+    
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 50px;
+    
+        background-color: rgba(227, 148, 146, 0.6);
+    
+        bottom: 50px;
+        left: 50px;
+    
+        position: absolute;
+    
+    }
+   
     #testmonials {
-        padding: 50px;
+        padding: 60px;
         margin-top: 0;
+        text-align: center;
        } 
 
        h3 {
@@ -484,24 +521,18 @@ p {
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
-       }
+        text-align: center;
+        padding: 0 5px 0 5px;
 
-   #background-img {
-    clear:both;
-    background: url("../images/background.jpg");
-    background-size: cover;
-    margin-top: 90px;
-    height: 470px;
-    width: 100%;
-}
+       }
 
 .contactus {
     font-size: 15px;
     margin-top: 290px;
     margin-left: -30px;
     color: black;
-    max-width: 400px;
     position: absolute;
+    max-width: 400px;
     left: 30%;
     padding: 20px;
 }
@@ -512,6 +543,20 @@ p {
     padding: 10px 20px 10px 20px;
 }
 
-
-    
+#background-img {
+    height: 480px;
+ 
 }
+
+footer {
+    position: relative;
+} 
+
+} 
+
+
+
+
+
+
+
