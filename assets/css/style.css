@@ -31,7 +31,6 @@ body {
     list-style-type: none;
     letter-spacing: 2px;
     font-family: DynaPuff, sans-serif;
-    letter-spacing: 2px;  
 }
 
 #title, #menu{
@@ -317,17 +316,50 @@ p {
           Tablet
 ---------------------------------- */
 
-@media screen and (max-width: 1200px ) {
+/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX*/
+
+@media screen and (max-width: 850px ){
+
+    #photo {
+        width: 100%;
+        height: 1000px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        clear: both;
+   
+        animation-name: photo-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        
+       } 
+   
+       #photo-movement {
+           height: 850px;
+           width: 100%;
+           overflow: hidden;
+           position:relative;
+       }
+       
+       @keyframes photo-zoom {
+           from{
+       transform: scale(1);
+           }
+           to{
+       transform: scale(1.1)
+           }
+       }
 
     #testmonials {
         padding: 60px;
-        margin-top: 0;
+        margin-top: 10px;
         text-align: center;
        } 
 
        h3 {
         text-align: center;
-        margin-left: 40px;
+        margin-left: -50px;
        }
 
        p {
@@ -340,7 +372,30 @@ p {
 
        }
 
+       footer {
+        position: relative;
+       }
+
+       .contactus {
+        margin-top: 310px;
+        margin-left: -30px;
+        max-width: 400px;
+        left: 30%;
+        padding: 20px;
+        padding-right: 10px;
+        position: absolute;
+    }
+
+    .button {
+        margin-top: -10px;
+        margin-left: 160px;
+        padding: 10px 20px 10px 20px;
+    }
     
+    #background-img {
+        height: 800px;
+     
+    }
     
 } 
 
@@ -482,8 +537,8 @@ p {
             Mobile 
 ---------------------------------- */
 
- @media screen and (max-width: 943px) {
-
+/*@media screen and (max-width: 943px) antes estava assim {*/
+@media screen and (max-width: 400px) {
     #photo {
         height: 550px; 
         width: 100%;
@@ -553,6 +608,9 @@ footer {
 } 
 
 } 
+
+
+
 
 
 
