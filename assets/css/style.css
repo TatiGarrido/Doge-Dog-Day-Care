@@ -541,7 +541,7 @@ p {
 /*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396{*/
 @media screen and (max-width: 412px) {
     #photo { 
-        height: 550px; /*750px */
+        height: 750px; /*750px */
         width: 100%;
     } 
 
@@ -555,7 +555,7 @@ p {
 
         background-color: rgba(227, 148, 146, 0.6);
     
-        bottom: 250px; /*50px*/
+        bottom: 50px; /*50px*/
         left: 10px; /*50*/
     
         position: absolute;
@@ -642,7 +642,6 @@ p {
 
 footer {
     position: relative;
-    bottom: 210px;
      
 } 
 
