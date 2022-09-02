@@ -1,21 +1,26 @@
-# Doge Dog Day Care
+# Doge Dog Day Care - Project Portfolio 1 - HTML & CSS
 
- Doge Dog Day Care is a small company which hopes to help people who want going on holidays or even spending long hours on a site without being concerned with the dog's care. The website will be targeted toward dog owners who are looking for a way to do what they need to without leaving the dogs on its own. Doge Dog Day Care will also be useful for dog owners to find places where they can socialize and take their pets together. 
+ Doge Dog Day Care is a small company which hopes to help people who want to go on holidays or even spend long hours on a site without being concerned with the dog's care. The website will be targeted toward dog owners who are looking for a way to do what they need to without leaving the dogs on its own. Doge Dog Day Care will also be useful for dog owners to find places where they can socialize and take their pets together.
 
- Welcome to the live project here: #
+ Welcome to the live project here: (https://tatigarrido.github.io/Doge-Dog-Day-Care/ "Doge Dog Day Care")
 
  Image link https://ui.dev/amiresponsive
 
  ## User Experience (UX)
- * User stories 
+ ### User stories 
     
-   1. As a potencial customer I want being able to navigate easily and quickly understanding the purpose of the website.
-   2. As a potencial customer, I want being able to navigate from the website to social media.
-   3. As a potencial customer, I want being able to see the photos and read the testimonials, to help me make a decision.
-   4. As a potencial customer, I want understanding what services are available through the company.
-   5. As a potencial customer, I expect to have an answer when I send a message through the website.
+   1. As a potential customer I want to be able to navigate easily and quickly understanding the purpose of the website.
+   2. As a potential customer, I want to be able to navigate from the website to social media.
+   3. As a potential customer, I want to be able to see the photos and read the testimonials, to help me make a decision.
+   4. As a potential customer, I want to be able to contact the company through the website.
 
-   *Design
+   ## Design
+
+   * Colour Scheme
+      * The two main colour used are coral and white.
+
+   *   
+
 
 
    *Wireframes

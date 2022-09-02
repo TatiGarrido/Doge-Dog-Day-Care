@@ -317,9 +317,9 @@ p {
           Tablet
 ---------------------------------- */
 
-/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX 850 ultima versao */
+/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850 ultima versao */
 
-@media screen and (max-width: 850px ){
+@media screen and (max-width: 875px ){
 
     #photo {
         width: 100%;
@@ -404,7 +404,7 @@ p {
           Large Monitors
 ---------------------------------- */
 
-@media screen and (min-width: 1393px ) {
+@media screen and (min-width: 1290px ) { /* antes era 1393 */
     #photo {
      width: 100%;
      height: 1000px;
@@ -540,8 +540,8 @@ p {
 
 /*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396{*/
 @media screen and (max-width: 412px) {
-    #photo {
-        height: 750px; /*750*/
+    #photo { 
+        height: 550px; /*750px */
         width: 100%;
     } 
 
@@ -550,12 +550,13 @@ p {
         width: 200px; 
         height: 210px; 
         padding-top: 20px;
-        padding-left: 50px;
-    
+        padding-bottom: 10px;
+        padding-left: 10px; /*50PX*/
+
         background-color: rgba(227, 148, 146, 0.6);
     
-        bottom: 50px;
-        left: 0; /*50*/
+        bottom: 250px; /*50px*/
+        left: 10px; /*50*/
     
         position: absolute;
     
@@ -569,11 +570,11 @@ p {
 
        h3 {
         text-align: center;
-        margin-left: 40px;
+        margin-left: 20px;/*40px*/
        }
 
        p {
-        width: 320%;
+        width: 350%; /*320% */
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
@@ -581,6 +582,32 @@ p {
         padding: 0, 5px, 0, 5px; 
 
        }
+
+       #left-testmonial {
+        /*float: left;*/
+        width: 45%;
+        padding: 20px; 
+        float: left;
+        padding-top: 5px;
+        line-height: 30px; 
+        clear: both;
+        margin-bottom: 10px; /*70px*/
+        margin-top: 10px; /*40px*/
+        margin-left: 1%; /*can't decide between px orm %*/
+       
+    }
+    
+    #right-testmonial {
+     width: 45%;
+     padding: 20px; 
+     /*float: top right;*/
+     padding-top: 5px;
+     line-height: 30px;
+     margin-bottom: 10px; /*70px*/
+     margin-top: 10px; /*40px*/
+     margin-left: 1px; /*can't decide between px or %*/
+     
+    }
 
 .contactus {
     font-size: 12px; /*antes era 15px*/
@@ -615,6 +642,8 @@ p {
 
 footer {
     position: relative;
+    bottom: 210px;
+     
 } 
 
 } 
@@ -676,10 +705,10 @@ footer {
 
  /*----------------------------------  
           large  tablet
----------------------------------- 
-@media screen and (min-width: 851px) {
+---------------------------------- */
+@media screen and (min-width: 876px) {
 
-    #photo {
+   /* #photo {
         width: 100%;
         height: 1000px;
         margin-top: 50px;
@@ -699,14 +728,12 @@ footer {
         width: 100%;
         overflow: hidden;
         position:relative;
-    }
+    } */
     
     footer {
         position: relative;
        }
-    */
-
-
+    }
 
 
 
