@@ -190,7 +190,7 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
-
+    margin-right: 10px;
 } 
 
 #lucio {
@@ -200,6 +200,7 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
+    margin-right: 10px;
     
 } 
 
@@ -210,6 +211,7 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
+    margin-right: 10px;
 }
 
 #pomie {
@@ -219,6 +221,7 @@ p {
     text-align: center;
     font-size: 30px;
     float: left;
+    margin-right: 10px;
 }
 
 /*img, p {
@@ -353,7 +356,7 @@ p {
        } 
    
        #photo-movement {
-           height: 850px; /*sntes 850px*/
+           height: 850px;
            width: 100%;
            overflow: hidden;
            position:relative;
@@ -589,6 +592,21 @@ p {
         position: absolute;
     
     }
+
+    #homeParagraph {
+        font-size: 18px;
+        background-color: white; /* rgba(244, 166, 116);*/
+        color: coral;
+        letter-spacing: 2px;
+        width: 90%;
+     }
+    
+     h1{
+        padding-left: 25%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+     
+     }
    
     #testmonials {
         padding: 25px; /*antes era 40*/
@@ -611,11 +629,12 @@ p {
 
        }
 
+   
+
        #left-testmonial {
         /*float: left;*/
         width: 45%;
         padding: 20px; 
-        float: left;
         padding-top: 5px;
         line-height: 30px; 
         clear: both;
