@@ -68,13 +68,13 @@ body {
 
 } 
   #text, #text h2 {
-    color: #00000000;
-    font-size: 20px; 
+    color: white;
+    font-size: 18px; 
   }
 
   #text {
     font-size: 130%;
-    font-family: Robotto;
+    font-family: DynaPuff, sans-serif;
     letter-spacing: 4px;
 
     width: 200px;
@@ -232,7 +232,7 @@ p {
     margin-top: 5px;
     margin-left: 20px;
     margin-right: 10px;
-    float: top; /* antes era     top right;  foram as unicas 2 coisa alterada hoje 05/09 */
+    /*float: top right;  antes era     top right;  foram as unicas 2 coisa alterada hoje 05/09 */
 }
 
 
@@ -456,7 +456,7 @@ p {
     #right-testmonial {
      width: 45%;
      padding: 20px;
-     float: top; /* antes era     top right;  foi unica coisa alterada hoje 05/09 */
+     /* float: top right;  antes era     top right;  foi unica coisa alterada hoje 05/09 */
      padding-top: 5px;
      line-height: 30px;
      margin-bottom: 70px;
@@ -510,13 +510,13 @@ p {
     }
 
     #text, #text h2 {
-        color: #00000000;
+        color: white;
         font-size: 20px; 
       }
     
       #text {
         font-size: 200%;
-        font-family: Robotto;
+        font-family: DynaPuff, sans-serif;
         letter-spacing: 6px;
     
         width: 300px;

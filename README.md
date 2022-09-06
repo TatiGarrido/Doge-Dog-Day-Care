@@ -152,13 +152,14 @@
 
  ## Credits
  
- #### Code
+ ### Code
+    * The hero image was inspired on hero image on loving running project
 
  ## Content
     * All content was written by the developer.
 
  ## Media
- 1. The dog's images used on the website are from this open source site: https://unsplash.com/
+ 1. The dog's images used on the website are from this open source site: https://unsplash.com/ ---- add the exacly link ----
 
  2.  The image background on contact us page,  is from this open source site:
  
