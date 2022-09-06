@@ -107,7 +107,28 @@ transform: scale(1);
 transform: scale(1.1)
     }
 }
+ #homeParagraph {
+    font-size: 18px;
+    background-color: white; /* rgba(244, 166, 116);*/
+    color: coral;
+    letter-spacing: 2px;
+   
+    
+    width: 98%;
+    /*height: 50px;*/
 
+
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+ }
+
+ h1{
+    padding-left: 42%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
  /*----------------------------------  
                footer 
 ---------------------------------- */
