@@ -156,7 +156,7 @@ footer {
 }
 
 /*----------------------------------  
-               Testmonials 
+               Testimonials 
 ---------------------------------- */
 
 #testmonials {
@@ -283,6 +283,7 @@ p {
 .contactus {
     
     font-size: 15px;
+    font-family: DynaPuff, sans-serif;
     margin-top: 240px;
     color: black;
     max-width: 400px;  
@@ -300,7 +301,6 @@ p {
 
 }
 
-
 #howcanwehelpyou {
     height: 100px;
 }
@@ -309,15 +309,16 @@ p {
     margin-top: 10px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
-    background-color: #00000000;
-    color: black;
+    background-color: rgba(244, 166, 116, 0.62);
+    color: white;
     margin: 5px 0 20px 0;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 150px;
+    font-family: DynaPuff, sans-serif;;
 }
 
 .button:hover {
-    color: brown;
+    color: black;
 }
 
 #background-img {
@@ -325,11 +326,21 @@ p {
     background: url("../images/background.jpg");
     background-size: cover;
     background-position: top;
-    height: 600px;
-    
-   
+    height: 600px;  
 }
 
+#thankyou {
+    font-family: DynaPuff, sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 300px;
+    color: coral;
+    max-width: 400px;  
+    left: 30%;
+    padding: 30px;
+    position: absolute;
+    
+}
 
 
 /*----------------------------------  
@@ -570,7 +581,7 @@ p {
 ---------------------------------- */
 
 /*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396 412px{*/
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 420px) {
     #photo { 
         height: 750px; /*750px */
         width: 100%;
@@ -642,9 +653,6 @@ p {
     #pomie {
         float: none;   
     }
-
-   
-
        #left-testmonial {
         /*float: left;*/
         width: 45%;
@@ -655,7 +663,6 @@ p {
         margin-bottom: 10px; /*70px*/
         margin-top: 10px; /*40px*/
         margin-left: 1%; /*can't decide between px orm %*/
-       
     }
     
     #right-testmonial {
