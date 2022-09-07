@@ -57,7 +57,7 @@ body {
 
 #photo {
     clear:both;
-    background: url("../images/dog.jpg");
+    background: url("../images/heroImage.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -109,7 +109,7 @@ transform: scale(1.1)
 }
  #homeParagraph {
     font-size: 18px;
-    background-color: white; /* rgba(244, 166, 116);*/
+    background-color: white; 
     color: coral;
     letter-spacing: 2px;
     width: 97%;
@@ -338,7 +338,7 @@ p {
 
 /*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850 ultima versao */
 
-@media screen and (max-width: 875px ){
+@media screen and (max-width: 871px ){ /*antes max 875*/
 
     #photo {
         width: 100%;
@@ -569,7 +569,7 @@ p {
             Mobile 
 ---------------------------------- */
 
-/*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396{*/
+/*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396 412px{*/
 @media screen and (max-width: 412px) {
     #photo { 
         height: 750px; /*750px */
@@ -628,6 +628,20 @@ p {
         padding: 0 5px 0 5px; 
 
        }
+       #kita {
+        float: none;   
+    } 
+
+    #lucio {
+        float: none;   
+    } 
+    
+    #dog-img{
+        float: none;
+    }
+    #pomie {
+        float: none;   
+    }
 
    
 
@@ -752,29 +766,7 @@ footer {
  /*----------------------------------  
           large  tablet
 ---------------------------------- */
-@media screen and (min-width: 876px) {
-
-   /* #photo {
-        width: 100%;
-        height: 1000px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-size: cover;
-        background-position: center;
-        clear: both;
-   
-        animation-name: photo-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-        
-       } 
-   
-       #photo-movement {
-        height: 800px;
-        width: 100%;
-        overflow: hidden;
-        position:relative;
-    } */
+@media screen and (min-width: 871px) {
     
     footer {
         position: relative;
