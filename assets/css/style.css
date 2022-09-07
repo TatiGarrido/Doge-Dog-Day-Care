@@ -298,6 +298,8 @@ p {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
+    resize: none;
+  
 
 }
 
@@ -338,8 +340,7 @@ p {
     max-width: 400px;  
     left: 30%;
     padding: 30px;
-    position: absolute;
-    
+    position: absolute;   
 }
 
 
@@ -363,7 +364,6 @@ p {
         animation-name: photo-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
-        
        } 
    
        #photo-movement {
@@ -425,9 +425,15 @@ p {
     
     #background-img {
         height: 800px;
-     
     }
-    
+
+    #thankyou {
+        margin-top: 400px;
+        max-width: 300px;  
+        left: 20%;
+        padding: 30px;
+        position: absolute;   
+    } 
 } 
 
 /*----------------------------------  
@@ -469,7 +475,6 @@ p {
     #homeParagraph {
         font-size: 20px;
         width: 97%;
-
         padding-top: 5px;
         padding-left: 15px;
         padding-right: 15px;
@@ -537,6 +542,18 @@ p {
         position: absolute;
         left: 30%;
         padding: 30px;
+    }
+
+    #thankyou {
+        font-family: DynaPuff, sans-serif;
+        letter-spacing: 3px;
+        font-size: 25px;
+        margin-top: 450px;
+        color: coral;
+        max-width: 500px;  
+        left: 30%;
+        padding: 30px;
+        position: absolute;   
     }
 
     footer {
@@ -616,7 +633,7 @@ p {
         padding-left: 25%;
         padding-top: 15px;
         padding-bottom: 10px;
-     
+
      }
    
     #testmonials {
@@ -705,16 +722,20 @@ p {
 
 #background-img {
     height: 480px;
- 
+}
+
+#thankyou {
+    margin-top: 350px;
+    max-width: 250px;  
+    left: 10%;
+    padding: 30px;
+    position: absolute;   
 }
 
 footer {
-    position: relative;
-     
+    position: relative;   
 } 
-
 } 
-
  /*----------------------------------  
           large  Mobile 
 ---------------------------------- 
