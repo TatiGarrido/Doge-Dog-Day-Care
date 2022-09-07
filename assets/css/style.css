@@ -298,7 +298,7 @@ p {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
-    resize: none;
+    resize: none; 
   
 
 }
