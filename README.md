@@ -134,7 +134,9 @@
 * The website was viewed in differents devices.
 
  *Known Bugs
- my footer is by my header
+ my footer is by my header -fixed add position relative ---- Goes here -----
+
+ Image on testimonial, for mobile devices, has some text by the side. Fixed removing float:left;
 
  footer no mobile, is in the middle of the page.
 
