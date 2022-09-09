@@ -247,7 +247,7 @@ p {
 }
 
 .right-side{
-   padding-top: 10px; 
+   padding-top: 5px; /*10*/
     width: 50%;
     line-height: 30px;
     clear: both;
@@ -257,7 +257,8 @@ p {
 /*----------------------------------  
                Contact Us 
 ---------------------------------- */
-.contactus { /*centralizando*/
+
+.contactus {
     font-size: 15px;
     font-family: DynaPuff, sans-serif;
     margin-top: 240px;
