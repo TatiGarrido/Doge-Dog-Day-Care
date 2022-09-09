@@ -5,11 +5,9 @@
     padding: 0;
     border: 0; 
 }
-
 /*----------------------------------  
                Heading 
 ---------------------------------- */
-
 body {
   font-family: Robotto, sans-serif;
   color: #ff7f50;
@@ -50,11 +48,9 @@ body {
 #menu a:hover{
    color: brown;
 }
-
 /*----------------------------------  
                section 
 ---------------------------------- */
-
 #photo {
     clear:both;
     background: url("../images/heroImage.jpg");
@@ -65,8 +61,8 @@ body {
     animation-name: photo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 } 
+
   #text, #text h2 {
     color: white;
     font-size: 18px; 
@@ -76,20 +72,14 @@ body {
     font-size: 130%;
     font-family: DynaPuff, sans-serif;
     letter-spacing: 4px;
-
     width: 200px;
     height: 210px;
-
     padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(227, 148, 146, 0.6);
-
     bottom: 60px;
     left: 50px;
-
     position: absolute;
-
 }
     
 #photo-movement {
@@ -107,6 +97,7 @@ transform: scale(1);
 transform: scale(1.1)
     }
 }
+
  #homeParagraph {
     font-size: 18px;
     background-color: white; 
@@ -127,8 +118,6 @@ transform: scale(1.1)
  /*----------------------------------  
                footer 
 ---------------------------------- */
-
-
 footer {
     position: absolute;
     bottom: 0;
@@ -154,25 +143,21 @@ footer {
 .social :hover {
     color: brown;
 }
-
 /*----------------------------------  
                Testimonials 
 ---------------------------------- */
-
 #testmonials {
     clear: both;
     color: black;
     font-family: Roboto;
-    background-color: rgba(244, 166, 116, 0.62);
-    
+    background-color: rgba(244, 166, 116, 0.62);  
 }
 
 h3 {
     font-family: Dynapuff;
     color: #ff7f50;
     text-align: center;
-    margin-left: -100px;
-    
+    margin-left: -100px; 
 }
 
 p {
@@ -201,7 +186,6 @@ p {
     font-size: 30px;
     float: left;
     margin-right: 10px;
-    
 } 
 
 #dog-img{
@@ -227,13 +211,10 @@ p {
 /*img, p {
     display: inline-block;
 } */
-
-
 .container {
     display: flex;
     align-items: center;
 } /* isso deixa o texto ao lado do paragrafo */
-
 
 #left-testmonial {
     width: 48%;
@@ -244,7 +225,6 @@ p {
     float: left;
 }
 
-
 #right-testmonial {
     width: 48%;
     padding-top: 20px;
@@ -253,8 +233,6 @@ p {
     margin-right: 10px;
     /*float: top right;  antes era     top right;  foram as unicas 2 coisa alterada hoje 05/09 */
 }
-
-
 
 .left-side {
     padding-top: 5px;
@@ -273,15 +251,10 @@ p {
    margin-bottom: 20px;
     float:right;
 }
-
-
-
 /*----------------------------------  
                Contact Us 
 ---------------------------------- */
-
-.contactus {
-    
+.contactus { /*centralizando*/
     font-size: 15px;
     font-family: DynaPuff, sans-serif;
     margin-top: 240px;
@@ -299,8 +272,7 @@ p {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     resize: none; 
-  
-
+    text-align: center;
 }
 
 #howcanwehelpyou {
@@ -342,14 +314,10 @@ p {
     padding: 30px;
     position: absolute;   
 }
-
-
 /*----------------------------------  
           Tablet
 ---------------------------------- */
-
 /*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850 ultima versao */
-
 @media screen and (max-width: 871px ){ /*antes max 875*/
 
     #photo {
@@ -400,7 +368,6 @@ p {
         margin-top: 20px;
         text-align: center;
         padding: 0 5px 0 5px;
-
        }
 
        footer {
@@ -435,11 +402,9 @@ p {
         position: absolute;   
     } 
 } 
-
 /*----------------------------------  
           Large Monitors
 ---------------------------------- */
-
 @media screen and (min-width: 1290px ) { /* antes era 1393 */
     #photo {
      width: 100%;
@@ -510,7 +475,6 @@ p {
      margin-top: 40px;
     }
 
-
     h3 {
         text-align: center;
         margin-left: -210px;
@@ -577,26 +541,19 @@ p {
         font-size: 200%;
         font-family: DynaPuff, sans-serif;
         letter-spacing: 6px;
-    
         width: 300px;
         height: 200px;
-    
         padding-top: 30px;
         padding-left: 10px;
-    
         background-color: rgba(227, 148, 146, 0.6);
-    
         bottom: 250px;
         left: 50px;
-    
         position: absolute;
-    
     }      
  }
  /*----------------------------------  
             Mobile 
 ---------------------------------- */
-
 /*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396 412px{*/
 @media screen and (max-width: 420px) {
     #photo { 
@@ -605,20 +562,15 @@ p {
     } 
 
     #text {
-    
         width: 200px; 
-        height: 210px; 
+        height: 250px; /*210px*/
         padding-top: 20px;
         padding-bottom: 10px;
         padding-left: 10px; /*50PX*/
-
         background-color: rgba(227, 148, 146, 0.6);
-    
-        bottom: 50px; /*50px*/
+        bottom: 50px; 
         left: 10px; /*50*/
-    
         position: absolute;
-    
     }
 
     #homeParagraph {
@@ -633,7 +585,6 @@ p {
         padding-left: 25%;
         padding-top: 15px;
         padding-bottom: 10px;
-
      }
    
     #testmonials {
@@ -691,7 +642,6 @@ p {
      margin-bottom: 10px; /*70px*/
      margin-top: 10px; /*40px*/
      margin-left: 1px; /*can't decide between px or %*/
-     
     }
 
 .contactus {
@@ -711,7 +661,6 @@ p {
     height: 20px;
     margin: 5px 0 10px 0;
     border: 1px solid black;
-
 }
 
 .button {
@@ -736,61 +685,6 @@ footer {
     position: relative;   
 } 
 } 
- /*----------------------------------  
-          large  Mobile 
----------------------------------- 
-@media screen and (min-width: 397px) {
-   
-   
-    #testmonials {
-        padding: 60px;
-        margin-top: 0;
-        text-align: center;
-       } 
-
-       h3 {
-        text-align: center;
-        margin-left: 40px;
-       }
-
-       p {
-        width: 320%;
-        font-size: 20px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-        text-align: center;
-        padding: 0 5px 0 5px;
-
-       }
-
-.contactus {
-    font-size: 15px;
-    margin-top: 240px; 
-    margin-left: -30px;
-    color: black;
-    position: absolute;
-    max-width: 250px;
-    left: 30%; 
-    padding: 20px;
-}
-
-.button {
-    margin-top: -10px;
-    margin-left: 110px;
-    padding: 5px 10px 5px 10px;
-}
-
-#background-img {
-    height: 480px;
- 
-}
-
-footer {
-    position: relative;
-} 
-
-} */
-
  /*----------------------------------  
           large  tablet
 ---------------------------------- */
