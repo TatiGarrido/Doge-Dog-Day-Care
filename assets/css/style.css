@@ -122,11 +122,13 @@ footer {
     position: absolute; 
     bottom: 0;
     width: 100%;
-    margin-bottom: -5px; /* introduzi uma margem negativa pq os icones sociais estavam sob a foto*/
+    margin-bottom: -5px; /* -5px introduzi uma margem negativa pq os icones sociais estavam sob a foto*/
+    text-align: center;
 } 
 
 .social{
     text-align: center;
+    
 }
 
 .social li {
@@ -236,8 +238,8 @@ p {
 }
 
 .left-side {
-    padding-top: 5px;
-    width: 50%;
+    padding-top: 5px; 
+    width: 50%; 
     line-height: 30px;
     clear: both;
     margin-bottom: 20px;
@@ -245,7 +247,7 @@ p {
 }
 
 .right-side{
-    padding-top: 5px; /*anres 10px*/
+   padding-top: 10px; 
     width: 50%;
     line-height: 30px;
     clear: both;
@@ -318,8 +320,8 @@ p {
 /*----------------------------------  
           Tablet
 ---------------------------------- */
-/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850 ultima versao */
-@media screen and (max-width: 871px ) { /*antes max 875*/
+/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850  */
+@media screen and (max-width: 871px ) { /*antes max 875 ultina versap 871*/
 
     #photo {
         width: 100%;
@@ -720,13 +722,24 @@ footer {
 
  /*----------------------------------  
           large  tablet
----------------------------------- 
+---------------------------------- */
 @media screen and (min-width: 871px) {
     
     footer {
-        position: relative;
+        width: 100%;
+        overflow: hidden;
+        position:relative;
        }
     }
 
+    /*----------------------------------  
+          large  duno
+---------------------------------- 
 
+    @media screen and (min-width: 1154px){
+        footer {
+            position: absolute;
+            
+           }
+    }
 
