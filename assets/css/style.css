@@ -283,10 +283,10 @@ p {
     margin-top: 10px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
-    background-color: rgba(244, 166, 116, 0.62);
-    color: white;
+    background-color: white; /* rgba(244, 166, 116, 0.62);*/
+    color: black;
     margin: 5px 0 20px 0;
-    border: 1px solid white;
+    border: 1px solid black;
     margin-left: 150px;
     font-family: DynaPuff, sans-serif;;
 }
