@@ -30,11 +30,11 @@
    ## Wireframes
    The wireframes for Doge Dog Day Care were produced on Balsamiq. They are low fidelity as there have been modifications throughout the development website.
 
-   ![Homepage wireframe](documentation/wireframe-homepage.png)
+   ![Homepage wireframe]()
 
-   ![Testmonials wireframe](documentation/Wireframe-testmonials.png)
+   ![Testmonials wireframe]()
 
-   ![Contact wireframe](documentation/wireframe-contact.png)
+   ![Contact wireframe]()
 
    ## Features
 
@@ -52,6 +52,9 @@
    ![Contact us](documentation/contactus-page.png)
 
    Contact us form. 
+
+   ### Thank you
+   ![Thank you]()
 
 
 
@@ -104,7 +107,8 @@
 
  The website was tested on the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [W3C HTML Validator](https://validator.w3.org/).
 
- ---- css and html validator checker images goes here -----
+ ![HTML validator]()
+ ![CSS Validator]()
 
  ### Testing User Stories from User Experience (UX) Section
     
@@ -112,43 +116,62 @@
 
     a. the website has a navigation bar on the landing page, where the user can easily choose the path to be followed.
     b. the hero image has a text block which explais what is the website about.
+    c. Our history introduces the user to the company.
 
  2. As a potential customer, I want to be able to navigate from the website to social media.
 
-    a. All social media icons takes the user to their social media page in. a nwe tab.
+    a. Each social media icon takes the user to the social media page in a new tab.
 
  3. As a potential customer, I want to be able to see the photos and read the testimonials, to help me make a decision.
 
-    a. The testmonials page display all the reviews with their respective's pets photos. 
+    a. The testimonials page display all the reviews and respective's pets images. 
 
  4. As a potential customer, I want to be able to contact the company through the website.
 
-    a. The form page enables the user to send a message. All fields must be completed, including email,  what enables the company to reply the message with an email.
-
-
+    a. The form page enables the user to send a message. All fields must be completed, including email,  what enables the company to reply the message back.
 
  ### Further Testing
 
 * Friends were kindly requested to review the website on their own devices to point any user experience issues. 
-* Daily tests have been made to make sure everything was working according the expected and any issues were corrected in the same day.
+* Daily tests have been made to make sure everything was working according the expected and any issues founded have been corrected on the same day.
 * The website was viewed in differents devices.
 
- *Known Bugs
- my footer is by my header -fixed add position relative ---- Goes here -----
+## Additional Testing
+The website was checked for color contrast accessibility validator
 
- Image on testimonial, for mobile devices, has some text by the side. Fixed removing float:left;
+![Color contrast]()
 
- footer no mobile, is in the middle of the page.
+ ### Bugs Fixed
 
- Text area box could be expanded by the user. (fix: style="resize: none" on the line code on html page )
- 
- 
+ During the process of testing the website some errors were found and corrected.
+
+ ![Text area resize]() 
+ In this corrected bug, the user was allowed to resize the text area in many sizes. 
+ ![Testimonials float]()
+ In this corrected bug, the text was floating by the image, but only in one of the four images. 
 
  ## Deployment
 
  ### GitHub Pages
 
- *Forking the GitHub Repository
+To deploy this project on the GitHub pages:
+
+1- Locate the repository on Github.
+2- On the top, right of the repository, click on settings.
+3- On the left, down, click on pages.
+4- Under the source, chose the option "Deploy from a branch".
+5- Select the option "main" and the folder called "root".
+6- The page will automatically refresh.
+7- Bellow GitHub Pages, is possible to find the address where the website can be finded live. 
+8- Click on "Visit site" button, or copy and past the address on your navigation bar.
+
+![Deployment]()
+
+[Link to the Github Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
+
+ ### Forking the GitHub Repository
+
+ By
 
  *Making a Local Clone
 
