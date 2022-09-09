@@ -272,7 +272,7 @@ p {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     resize: none; 
-    text-align: center;
+    text-align: left; /*BEFORE WAS CENTER*/
 }
 
 #howcanwehelpyou {
@@ -385,13 +385,6 @@ p {
         position: absolute;
         align-items: center;
     }
-
-    
-    
-    
-   /* max-width: 400px; /*400*/
-
-   
 
     .button {
         margin-top: -10px;
@@ -566,7 +559,7 @@ p {
 /*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396 412px{*/
 @media screen and (max-width: 420px) {
     #photo { 
-        height: 750px; /*750px */
+        height: 750px; 
         width: 100%;
     } 
 
@@ -682,7 +675,8 @@ p {
 }
 
 #background-img {
-    height: 480px;
+    height: 480px; 
+    /*height: 480px;*/
 }
 
 #thankyou {
