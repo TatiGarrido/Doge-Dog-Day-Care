@@ -77,7 +77,6 @@ body {
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(227, 148, 146, 0.6);
-    text-align: justify;
     bottom: 60px;
     left: 50px;
     position: absolute;
@@ -360,7 +359,7 @@ p {
         padding: 60px;
         margin-top: 10px;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 10px;  /*salvou a vida*/
        } 
 
        h3 {
@@ -736,14 +735,5 @@ footer {
        }
     }
 
-    /*----------------------------------  
-          large  duno
----------------------------------- 
-
-    @media screen and (min-width: 1154px){
-        footer {
-            position: absolute;
-            
-           }
-    }
+   
 

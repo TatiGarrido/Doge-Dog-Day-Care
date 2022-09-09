@@ -4,7 +4,7 @@
 
  Welcome to the live project here: [Doge Dog Day Care](https://tatigarrido.github.io/Doge-Dog-Day-Care/) 
 
- Image link https://ui.dev/amiresponsive ---- Goes here -----
+ ![I am responsive](documentation/I-am-responsive.png)
 
  ## User Experience (UX)
  ### User stories 
