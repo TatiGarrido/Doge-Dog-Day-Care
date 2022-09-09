@@ -171,7 +171,11 @@ To deploy this project on the GitHub pages:
 
  ### Forking the GitHub Repository
 
- By
+ A fork of the repository has been made to allow the developer to view and/or make changes without affecting the original repository. The fork was made following the steps:
+
+ 1- Locate the [Github Repository](https://github.com/TatiGarrido/Doge-Dog-Day-Care/) 
+
+
 
  *Making a Local Clone
 
