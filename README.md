@@ -169,17 +169,28 @@ To deploy this project on the GitHub pages:
 
 [Link to the Github Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
 
+
  ### Forking the GitHub Repository
 
- A fork of the repository has been made to allow the developer to view and/or make changes without affecting the original repository. The fork was made following the steps:
+ Forking a repository allow the developers to view and/or make changes without affecting the original repository. To fork this repository follow the steps:
 
- 1- Locate the [Github Repository](https://github.com/TatiGarrido/Doge-Dog-Day-Care/) 
+ 1- Log in and find the [the Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
+ 2- Click on the button fork on the top, left of the page to create a copy of the repository. 
+
+  ![Fork Page]()
+
+ ### Making a Local Clone
+ 
+ To clone a repository follow the steps:
+
+ 1- Log into GitHub and locate the repository.
+ 2- By the green Gitpod button click on "code" and copy the link.
+ 3-Open the terminal
+ 4-Change the current working directory to the location where you want the clone to be made.
+ 5- Type git clone and past the URL.
 
 
-
- *Making a Local Clone
-
-
+  ![Clone Page]()
  ## Credits
  
  ### Code
@@ -189,13 +200,13 @@ To deploy this project on the GitHub pages:
     * All content was written by the developer.
 
  ## Media
- 1. The dog's images used on the website are from this open source site: https://unsplash.com/ ---- add the exacly link ----
 
- 2.  The image background on contact us page,  is from this open source site:
- 
-https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword
-
-<a href='https://www.freepik.com/vectors/watercolor-dog'>Watercolor dog vector created by rawpixel.com - www.freepik.com</a>
+ 1. [Unplash](https://unsplash.com/photos/G8cB8hY3yvU), to create the testmonials - Kita.
+ 2. [Unplash](https://unsplash.com/photos/v0_MCllHY9M), to create the testmonials - Lucio.
+ 3. [Unplash](https://unsplash.com/photos/NH1d0xX6Ldk), to create the testmonials - Pomie.
+ 4. [Unplash](https://unsplash.com/photos/YBEcRCuufVk), to create the testmonials - Michelangelo.
+ 5. [Unplash](https://unsplash.com/photos/t7wwffh6x8E), to create the hero image.
+ 6. [Freepik](https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword) The image background on contact us page,  is from this open source site:
 
 ## Acknowledgements
   
