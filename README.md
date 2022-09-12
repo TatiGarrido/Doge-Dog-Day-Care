@@ -30,31 +30,34 @@
    ## Wireframes
    The wireframes for Doge Dog Day Care were produced on Balsamiq. They are low fidelity as there have been modifications throughout the development website.
 
-   ![Homepage wireframe]()
+   ![Homepage wireframe](documentation/wireframe-homepage.png)
 
-   ![Testmonials wireframe]()
+   ![Testmonials wireframe](documentation/Wireframe-testmonials.png)
 
-   ![Contact wireframe]()
+   ![Contact wireframe](documentation/Wireframe-testmonials.png)
 
    ## Features
 
    ### Home
-   ![Home](documentation/homepage.png)
+   ![Home](documentation/landing-page.png)
 
    A brief about what the company offers to the customers.
 
+   ### History
+   ![History](documentation/history-page.png)
+
    ### Testmonials
-   ![Testmonials](documentation/testmonials-page.png)
+   ![Testmonials](documentation/testimonials-page.png)
 
    Customers reviews with their pets images. 
 
    ### Contact us
-   ![Contact us](documentation/contactus-page.png)
+   ![Contact us](documentation/contact-page.png)
 
    Contact us form. 
 
    ### Thank you
-   ![Thank you]()
+   ![Thank you](documentation/thankyou-page.png)
 
 
 
@@ -107,8 +110,8 @@
 
  The website was tested on the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [W3C HTML Validator](https://validator.w3.org/).
 
- ![HTML validator]()
- ![CSS Validator]()
+ ![HTML validator](documentation/HTML-checker.png)
+ ![CSS Validator](documentation/css-validator.png)
 
  ### Testing User Stories from User Experience (UX) Section
     
@@ -139,7 +142,7 @@
 ## Additional Testing
 The website was checked for color contrast accessibility validator
 
-![Color contrast]()
+![Color contrast](documentation/colorcontrast.png)
 
  ### Bugs Fixed
 
