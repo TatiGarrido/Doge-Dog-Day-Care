@@ -9,7 +9,7 @@
  ## User Experience (UX)
  ### User stories 
     
-   1. As a potential customer I want to be able to navigate easily and quickly understanding the purpose of the website.
+   1. As a potential customer, I want to be able to navigate easily and quickly understanding the purpose of the website.
    2. As a potential customer, I want to be able to navigate from the website to social media.
    3. As a potential customer, I want to be able to see the photos and read the testimonials, to help me make a decision.
    4. As a potential customer, I want to be able to contact the company through the website.
@@ -22,8 +22,8 @@
    * Typography   
       * The DynaPuff and Roboto are the fonts that were used more often throughout the whole website with Sans Serif as the fallback font. The chosen fonts are ideal for the purpose of the website, which is: be fun and trustable.
 
-     * Imagery
-      *The large, background hero image is designed to catch the user's attention. The images on the testmonials page are designed to show users that customers and reviews are real and so are those dogs. The background image on the contact us page is designed to give the website some padding in a page where customers should fill with details only.  
+   * Imagery
+      * The large, background hero image is designed to catch the user's attention. The images on the testimonials page are designed to show users that customers and reviews are real and so are those dogs. The background image on the contact us page is designed to give the website some padding in a page where customers should fill with details only.  
 
 
 
@@ -78,34 +78,37 @@
    ## Frameworks, Libraries & Programs Used
 
  1. Hover.css:
-    * was used on the menu, social media icons and on "send" button.
+    * Was used on the menu, social media icons and on "send" button.
 
  2. Google Fonts: 
-    * to import the 'DynaPuff' and 'Roboto' font styles.
+    * To import the 'DynaPuff' and 'Roboto' font styles.
 
  3. Font Awesome: 
-    * to import the icons.
+    * To import the icons.
 
  4. Git
-    * used for version control.
+    * Used for version control.
 
  5. GitHub
-    * to host and deploy the website. 
+    * To host and deploy the website. 
 
  7. Gitpod
-    * to develop the project.
+    * To develop the project.
 
  8. Balsamiq
-    * to create the wireframes.  
+    * To create the wireframes.  
 
  9. Tiny PNG
-    * to compress the documentation images.
+    * To compress the documentation images.
 
  10. W3C HTML Validator
-     * to validate the HTML.    
+     * To validate the HTML.    
 
  11. W3C CSS Validator
-     * to validate the CSS.     
+     * To validate the CSS.   
+
+ 12. Lighthouse
+     * To test the quality and accessibility of the website.      
 
 
 
@@ -143,13 +146,13 @@
 * The website was viewed in differents devices.
 
 ## Additional Testing
-The website was checked for color contrast accessibility validator
+
+ The website was checked for color contrast accessibility validator
 
 ![Color contrast](documentation/colorcontrast.png)
 
 ### Lighthouse
-
-The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to improve the performance, accessibility and quality of the website. 
+ The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to improve the performance, accessibility and quality of the website. 
 
 ![Lighthouse](documentation/lightHouse%202.png)
 
@@ -172,14 +175,14 @@ The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/
 
 To deploy this project on the GitHub pages:
 
-1- Locate the repository on Github.
-2- On the top, right of the repository, click on settings.
-3- On the left, down, click on pages.
-4- Under the source, chose the option "Deploy from a branch".
-5- Select the option "main" and the folder called "root".
-6- The page will automatically refresh.
-7- Bellow GitHub Pages, is possible to find the address where the website can be finded live. 
-8- Click on "Visit site" button, or copy and past the address on your navigation bar.
+1.  Locate the repository on Github.
+2.  On the top, right of the repository, click on settings tab.
+3.  On the left, down, click on pages tab.
+4.  Under the source, chose the option "Deploy from a branch".
+5.  Select the option "main" and the folder called "root".
+6.  The page will automatically refresh.
+7.  Bellow GitHub Pages, is possible to find the address where the website can be finded live. 
+8.  Click on "Visit site" button, or copy and past the address on your navigation bar.
 
 ![Deployment](documentation/deployment.png)
 
@@ -198,13 +201,16 @@ To deploy this project on the GitHub pages:
  To clone a repository follow the steps:
 
  1- Log into GitHub and locate the repository.
- 2- By the green Gitpod button click on "code" and copy the link.
- 3-Open the terminal
- 4-Change the current working directory to the location where you want the clone to be made.
- 5- Type git clone and past the URL.
-
+ 2- By the green Gitpod button click on "code" and copy the URL link.
+ 3-Open your IDE terminal.
+ 4-Change the current working directory.
+ 5- Type git clone, past the URL and add a name for the clone.
+ 6- Press enter and the clone will be created. 
 
   ![Clone Page](documentation/clone.png)
+
+  Oficial documentation to clone a repository can be found [here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+
  ## Credits
  ### Code
 
@@ -223,7 +229,7 @@ To deploy this project on the GitHub pages:
  5. [Unplash](https://unsplash.com/photos/t7wwffh6x8E), to create the hero image.
  6. [Freepik](https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword) The image background on contact us page,  is from this open source site.
 
-## Acknowledgements
+
 
 
   
