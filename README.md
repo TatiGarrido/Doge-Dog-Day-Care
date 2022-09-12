@@ -28,7 +28,7 @@
 
 
    ## Wireframes
-   The wireframes for Doge Dog Day Care were produced on Balsamiq. They are low fidelity as there have been modifications throughout the development website.
+   The wireframes were produced on Balsamiq. They were built as being part of the first version ofthe website. Modifications had been done throughout the development website.
 
    ![Homepage wireframe](documentation/wireframe-homepage.png)
 
@@ -46,6 +46,8 @@
    ### History
    ![History](documentation/history-page.png)
 
+   The history and what the company offer to the customers. 
+
    ### Testmonials
    ![Testmonials](documentation/testimonials-page.png)
 
@@ -59,8 +61,12 @@
    ### Thank you
    ![Thank you](documentation/thankyou-page.png)
 
+   A "thank you" message provided when a customer fill the form and send a message. 
 
+   ### Footer
+   ![Footer](documentation/footer.png)
 
+   The footer section contais social media links that takes users to the company's social media in a new page. 
 
    ## Technologies Used
 
@@ -84,10 +90,7 @@
     * used for version control.
 
  5. GitHub
-    * to host and deploy the website.
-
- 6. Balsamic
-    * to create the wireframes on the design process.  
+    * to host and deploy the website. 
 
  7. Gitpod
     * to develop the project.
@@ -144,15 +147,24 @@ The website was checked for color contrast accessibility validator
 
 ![Color contrast](documentation/colorcontrast.png)
 
+### Lighthouse
+
+The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to improve the performance, accessibility and quality of the website. 
+
+![Lighthouse](documentation/lightHouse%202.png)
+
+
  ### Bugs Fixed
 
  During the process of testing the website some errors were found and corrected.
 
  ![Text area resize](documentation/bugFixResize.png) 
- In this corrected bug, the user was allowed to resize the text area in many sizes. 
+ 
+ In this corrected bug, the user was allowed to resize the text area in many sizes.
 
  ![Testimonials float](documentation/bugFix.png)
- In this corrected bug, the text was floating by the image, but only in one of the four images. 
+ 
+ In this corrected bug, when the website was oppened on mobile, the text was floating by the image, but only in one of the four testimonials.
 
  ## Deployment
 
@@ -194,21 +206,24 @@ To deploy this project on the GitHub pages:
 
   ![Clone Page](documentation/clone.png)
  ## Credits
- 
  ### Code
-    * The hero image was inspired on hero image on loving running project
+
+ * The hero image was inspired on hero image on love running project.
 
  ## Content
-    * All content was written by the developer.
+
+ * All content was written by the developer.
 
  ## Media
 
- 1. [Unplash](https://unsplash.com/photos/G8cB8hY3yvU), to create the testmonials - Kita.
- 2. [Unplash](https://unsplash.com/photos/v0_MCllHY9M), to create the testmonials - Lucio.
- 3. [Unplash](https://unsplash.com/photos/NH1d0xX6Ldk), to create the testmonials - Pomie.
- 4. [Unplash](https://unsplash.com/photos/YBEcRCuufVk), to create the testmonials - Michelangelo.
+ 1. [Unplash](https://unsplash.com/photos/G8cB8hY3yvU), to create the testimonials - Kita.
+ 2. [Unplash](https://unsplash.com/photos/v0_MCllHY9M), to create the testimonials - Lucio.
+ 3. [Unplash](https://unsplash.com/photos/NH1d0xX6Ldk), to create the testimonials - Pomie.
+ 4. [Unplash](https://unsplash.com/photos/YBEcRCuufVk), to create the testimonials - Michelangelo.
  5. [Unplash](https://unsplash.com/photos/t7wwffh6x8E), to create the hero image.
- 6. [Freepik](https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword) The image background on contact us page,  is from this open source site:
+ 6. [Freepik](https://www.freepik.com/free-vector/frame-with-dogs-vector-white-background_17432981.htm#query=pet%20background&position=3&from_view=keyword) The image background on contact us page,  is from this open source site.
 
 ## Acknowledgements
+
+
   
