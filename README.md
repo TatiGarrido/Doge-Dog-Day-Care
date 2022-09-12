@@ -148,9 +148,10 @@ The website was checked for color contrast accessibility validator
 
  During the process of testing the website some errors were found and corrected.
 
- ![Text area resize]() 
+ ![Text area resize](documentation/bugFixResize.png) 
  In this corrected bug, the user was allowed to resize the text area in many sizes. 
- ![Testimonials float]()
+
+ ![Testimonials float](documentation/bugFix.png)
  In this corrected bug, the text was floating by the image, but only in one of the four images. 
 
  ## Deployment
@@ -168,7 +169,7 @@ To deploy this project on the GitHub pages:
 7- Bellow GitHub Pages, is possible to find the address where the website can be finded live. 
 8- Click on "Visit site" button, or copy and past the address on your navigation bar.
 
-![Deployment]()
+![Deployment](documentation/deployment.png)
 
 [Link to the Github Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
 
@@ -179,8 +180,6 @@ To deploy this project on the GitHub pages:
 
  1- Log in and find the [the Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
  2- Click on the button fork on the top, left of the page to create a copy of the repository. 
-
-  ![Fork Page]()
 
  ### Making a Local Clone
  
@@ -193,7 +192,7 @@ To deploy this project on the GitHub pages:
  5- Type git clone and past the URL.
 
 
-  ![Clone Page]()
+  ![Clone Page](documentation/clone.png)
  ## Credits
  
  ### Code
