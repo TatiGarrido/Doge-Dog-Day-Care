@@ -631,7 +631,7 @@ p {
         clear: both;
         margin-bottom: 10px; 
         margin-top: 10px; 
-        margin-left: 1%; ->
+        margin-left: 1px; 
     }
     
     #right-testmonial {
@@ -641,7 +641,7 @@ p {
      line-height: 30px;
      margin-bottom: 10px; 
      margin-top: 10px; 
-     margin-left: 1px; ->
+     margin-left: 1px; 
     }
 
 .contactus {
