@@ -28,13 +28,13 @@
 
 
    ## Wireframes
-   The wireframes were produced on Balsamiq. They were built as being part of the first version ofthe website. Modifications had been done throughout the development website.
+   The wireframes were produced on Balsamiq. They were built as being part of the first version of the website. Modifications were made throughout the website development.
 
    ![Homepage wireframe](documentation/wireframe-homepage.png)
 
    ![Testmonials wireframe](documentation/Wireframe-testmonials.png)
 
-   ![Contact wireframe](documentation/Wireframe-testmonials.png)
+   ![Contact wireframe](documentation/wireframe-contact.png)
 
    ## Features
 
@@ -61,12 +61,12 @@
    ### Thank you
    ![Thank you](documentation/thankyou-page.png)
 
-   A "thank you" message provided when a customer fill the form and send a message. 
+   A "thank you" message will be prompted when a customer fills out the form to send a message. 
 
    ### Footer
    ![Footer](documentation/footer.png)
 
-   The footer section contais social media links that takes users to the company's social media in a new page. 
+   The footer section contains social media links that take users to the company's social media in a new page. 
 
    ## Technologies Used
 
@@ -121,10 +121,12 @@
 
  ### Testing User Stories from User Experience (UX) Section
     
- 1. As a potential customer I want to be able to navigate easily and quickly understanding the purpose of the website.
+ 1. As a potential customer, I want to be able to navigate easily and quickly understanding the purpose of the website.
 
-    a. the website has a navigation bar on the landing page, where the user can easily choose the path to be followed.
-    b. the hero image has a text block which explais what is the website about.
+    a. The website has a navigation bar on the landing page, where the user can easily choose the path to be followed.
+
+    b. The hero image has a text block which explains what is the website about.
+
     c. Our history introduces the user to the company.
 
  2. As a potential customer, I want to be able to navigate from the website to social media.
@@ -133,26 +135,26 @@
 
  3. As a potential customer, I want to be able to see the photos and read the testimonials, to help me make a decision.
 
-    a. The testimonials page display all the reviews and respective's pets images. 
+    a. The testimonials page display all the reviews and respectives pets images. 
 
  4. As a potential customer, I want to be able to contact the company through the website.
 
-    a. The form page enables the user to send a message. All fields must be completed, including email,  what enables the company to reply the message back.
+    a. The form page enables the user to send a message. All fields must be completed, including email, which enables the company to reply the message.
 
  ### Further Testing
 
-* Friends were kindly requested to review the website on their own devices to point any user experience issues. 
-* Daily tests have been made to make sure everything was working according the expected and any issues founded have been corrected on the same day.
-* The website was viewed in differents devices.
+* Friends were kindly requested to review the website on their own devices to point out any user experience issues. 
+* Daily tests have been made to make sure everything was working to the expected and any issues found have been corrected on the same day.
+* The website was viewed in different devices.
 
 ## Additional Testing
 
- The website was checked for color contrast accessibility validator
+ The website was checked for color contrast accessibility validator.
 
 ![Color contrast](documentation/colorcontrast.png)
 
 ### Lighthouse
- The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to improve the performance, accessibility and quality of the website. 
+ The website was tested on [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to improve the performance, accessibility and, quality of the website. 
 
 ![Lighthouse](documentation/lightHouse%202.png)
 
@@ -167,7 +169,7 @@
 
  ![Testimonials float](documentation/bugFix.png)
  
- In this corrected bug, when the website was oppened on mobile, the text was floating by the image, but only in one of the four testimonials.
+ In this corrected bug, when the website was viewed on mobile, the text was floating by the image, but only in one of the four testimonials.
 
  ## Deployment
 
@@ -181,8 +183,8 @@ To deploy this project on the GitHub pages:
 4.  Under the source, chose the option "Deploy from a branch".
 5.  Select the option "main" and the folder called "root".
 6.  The page will automatically refresh.
-7.  Bellow GitHub Pages, is possible to find the address where the website can be finded live. 
-8.  Click on "Visit site" button, or copy and past the address on your navigation bar.
+7.  Below GitHub Pages, it is possible to find the address where the website can be find live. 
+8.  Click on "Visit site" button, or copy and paste the address on your navigation bar.
 
 ![Deployment](documentation/deployment.png)
 
@@ -191,21 +193,21 @@ To deploy this project on the GitHub pages:
 
  ### Forking the GitHub Repository
 
- Forking a repository allow the developers to view and/or make changes without affecting the original repository. To fork this repository follow the steps:
+ Forking a repository allows the developers to view and/or make changes without affecting the original repository. To fork this repository, follow the steps:
 
  1- Log in and find the [the Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
  2- Click on the button fork on the top, left of the page to create a copy of the repository. 
 
  ### Making a Local Clone
  
- To clone a repository follow the steps:
+ To clone a repository, follow the steps:
 
- 1- Log into GitHub and locate the repository.
- 2- By the green Gitpod button click on "code" and copy the URL link.
- 3-Open your IDE terminal.
- 4-Change the current working directory.
- 5- Type git clone, past the URL and add a name for the clone.
- 6- Press enter and the clone will be created. 
+ 1. Log into GitHub and locate the repository.
+ 2. By the green Gitpod button, click on "code" and copy the URL link.
+ 3. Open your IDE terminal.
+ 4. Change the current working directory.
+ 5. Type git clone, past the URL and add a name for the clone.
+ 6. Press enter and the clone will be created. 
 
   ![Clone Page](documentation/clone.png)
 
