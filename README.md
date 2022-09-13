@@ -195,8 +195,8 @@ To deploy this project on the GitHub pages:
 
  Forking a repository allows the developers to view and/or make changes without affecting the original repository. To fork this repository, follow the steps:
 
- 1- Log in and find the [the Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
- 2- Click on the button fork on the top, left of the page to create a copy of the repository. 
+ 1. Log in and find the [the Repositoty](https://github.com/TatiGarrido/Doge-Dog-Day-Care/)
+ 2. Click on the button fork on the top, left of the page to create a copy of the repository. 
 
  ### Making a Local Clone
  
