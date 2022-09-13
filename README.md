@@ -205,7 +205,7 @@ To deploy this project on the GitHub pages:
  1. Log into GitHub and locate the repository.
  2. By the green Gitpod button, click on "code" and copy the URL link.
  3. Open your IDE terminal.
- 4. Change the current working directory.
+ 4. Leave the current working directory typing, cd .. .
  5. Type git clone, past the URL and add a name for the clone.
  6. Press enter and the clone will be created. 
 
@@ -216,7 +216,7 @@ To deploy this project on the GitHub pages:
  ## Credits
  ### Code
 
- * The hero image was inspired on hero image on love running project.
+ * The hero image was inspired on love running project.
 
  ## Content
 
