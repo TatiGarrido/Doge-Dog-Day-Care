@@ -49,7 +49,7 @@
    ### Home
    ![Home](documentation/landing-page.png)
 
-   A brief about what the company offers to the customers.
+   A brief about what the company offer to the customers.
 
    ### History
    ![History](documentation/history-page.png)
