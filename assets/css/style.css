@@ -122,7 +122,7 @@ footer {
     position: absolute; 
     bottom: 0;
     width: 100%;
-    margin-bottom: -5px; /* -5px introduzi uma margem negativa pq os icones sociais estavam sob a foto*/
+    margin-bottom: -5px;
     text-align: center;
 } 
 
@@ -211,13 +211,10 @@ p {
     margin-right: 10px;
 }
 
-/*img, p {
-    display: inline-block;
-} */
 .container {
     display: flex;
     align-items: center;
-} /* isso deixa o texto ao lado do paragrafo */
+} /* to put text by the paragraph */
 
 #left-testmonial {
     width: 48%;
@@ -234,7 +231,6 @@ p {
     margin-top: 5px;
     margin-left: 20px;
     margin-right: 10px;
-    /*float: top right;  antes era     top right;  foram as unicas 2 coisa alterada hoje 05/09 */
 }
 
 .left-side {
@@ -247,7 +243,7 @@ p {
 }
 
 .right-side{
-   padding-top: 5px; /*10*/
+   padding-top: 5px;
     width: 50%;
     line-height: 30px;
     clear: both;
@@ -277,7 +273,7 @@ p {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     resize: none; 
-    text-align: left; /*BEFORE WAS CENTER- bug do texto comecando no meio do form*/
+    text-align: left; 
 }
 
 #howcanwehelpyou {
@@ -288,7 +284,7 @@ p {
     margin-top: 10px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
-    background-color: white; /* rgba(244, 166, 116, 0.62);*/
+    background-color: white; 
     color: black;
     margin: 5px 0 20px 0;
     border: 1px solid black;
@@ -322,9 +318,8 @@ p {
 /*----------------------------------  
           Tablet
 ---------------------------------- */
-/*@media screen and (max-width: 1200px ) E DEPOIS VEIO MAX-WIDTH 800PX, 850  */
-@media screen and (max-width: 871px ) { /*antes max 875 ultina versap 871*/
 
+@media screen and (max-width: 871px ) { 
     #photo {
         width: 100%;
         height: 1000px;
@@ -359,7 +354,7 @@ p {
         padding: 60px;
         margin-top: 10px;
         text-align: center;
-        margin-left: 10px;  /*salvou a vida*/
+        margin-left: 10px;  
        } 
 
        h3 {
@@ -381,7 +376,7 @@ p {
        }
 
        .contactus {
-        width: 60%; /* nao tinha*/
+        width: 60%; 
         margin-top: 310px;
         margin-left: -30px;
         max-width: 400px;
@@ -413,7 +408,7 @@ p {
 /*----------------------------------  
           Large Monitors
 ---------------------------------- */
-@media screen and (min-width: 1290px ) { /* antes era 1393 */
+@media screen and (min-width: 1290px ) { 
     #photo {
      width: 100%;
      height: 1000px;
@@ -476,7 +471,6 @@ p {
     #right-testmonial {
      width: 45%;
      padding: 20px;
-     /* float: top right;  antes era     top right;  foi unica coisa alterada hoje 05/09 */
      padding-top: 5px;
      line-height: 30px;
      margin-bottom: 70px;
@@ -562,7 +556,7 @@ p {
  /*----------------------------------  
             Mobile 
 ---------------------------------- */
-/*@media screen and (max-width: 943px) antes estava assim e a ultima foi 400px 396 412px{*/
+
 @media screen and (max-width: 420px) {
     #photo { 
         height: 750px; 
@@ -571,19 +565,19 @@ p {
 
     #text {
         width: 200px; 
-        height: 250px; /*210px*/
+        height: 250px; 
         padding-top: 20px;
         padding-bottom: 10px;
-        padding-left: 10px; /*50PX*/
+        padding-left: 10px; 
         background-color: rgba(227, 148, 146, 0.6);
         bottom: 50px; 
-        left: 10px; /*50*/
+        left: 10px;
         position: absolute;
     }
 
     #homeParagraph {
         font-size: 18px;
-        background-color: white; /* rgba(244, 166, 116);*/
+        background-color: white; 
         color: coral;
         letter-spacing: 2px;
         width: 90%;
@@ -596,18 +590,18 @@ p {
      }
    
     #testmonials {
-        padding: 25px; /*antes era 40*/
+        padding: 25px; 
         margin-top: 0;
         text-align: center;
        } 
 
        h3 {
         text-align: center;
-        margin-left: 20px;/*40px*/
+        margin-left: 20px;
        }
 
        p {
-        width: 350%; /*320% */
+        width: 350%; 
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 20px;
@@ -630,38 +624,34 @@ p {
         float: none;   
     }
        #left-testmonial {
-        /*float: left;*/
         width: 45%;
         padding: 20px; 
         padding-top: 5px;
         line-height: 30px; 
         clear: both;
-        margin-bottom: 10px; /*70px*/
-        margin-top: 10px; /*40px*/
-        margin-left: 1%; /*can't decide between px orm %*/
+        margin-bottom: 10px; 
+        margin-top: 10px; 
+        margin-left: 1%; ->
     }
     
     #right-testmonial {
      width: 45%;
      padding: 20px; 
-     /*float: top right;*/
      padding-top: 5px;
      line-height: 30px;
-     margin-bottom: 10px; /*70px*/
-     margin-top: 10px; /*40px*/
-     margin-left: 1px; /*can't decide between px or %*/
+     margin-bottom: 10px; 
+     margin-top: 10px; 
+     margin-left: 1px; ->
     }
 
 .contactus {
     font-size: 12px; 
-    width: 70%; /* nao tinha*/
-   /*margin-top: 290px; */
-   /* margin-left: -30px;*/
+    width: 70%;
     color: black;
     position: absolute;
-    max-width: 400px; /*400*/
-    align-items: center;/* nao tinha*/
-    left: 15%; /*30%*/
+    max-width: 400px; 
+    align-items: center;
+    left: 15%; 
     padding: 20px;
    
 }
@@ -682,7 +672,6 @@ p {
 
 #background-img {
     height: 480px; 
-    /*height: 480px;*/
 }
 
 #thankyou {
@@ -697,31 +686,6 @@ footer {
     position: relative;   
 } 
 } 
-/*----------------------------------  
-          large  Mobile
----------------------------------- 
-@media screen and (min-width: 410px) {
-    .contactus {
-        font-size: 12px; 
-        width: 70%; 
-        margin-top: 270px ;
-       
-        max-width: 400px; /*400*
-        align-items: center;/* nao tinha*
-        left: 25%; /*30%*
-        padding: 5px;
-       
-    }*/
-  
-  
-   /* margin-left: -30px;
-    color: black;
-    position: absolute;
-    max-width: 400px; /*400*
-    align-items: center;/* nao tinha
-    left: 15%; /*30%
-    padding: 20px;
-} */
 
  /*----------------------------------  
           large  tablet
