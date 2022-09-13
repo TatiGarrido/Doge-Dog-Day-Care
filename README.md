@@ -19,8 +19,16 @@
    * Colour Scheme
       * The two main colour used are coral and white.
 
+      ![Font color](documentation/coral.png) ![font spectrum](documentation/coral-spectrum.png)
+      ![Background color](documentation/coral-testimonial.png) ![background spectrum](documentation/coral-testimonial-spectrum.png)
+      ![white](documentation/white.png) ![white spectrum](documentation/white-spectrum.png)
+
    * Typography   
       * The DynaPuff and Roboto are the fonts that were used more often throughout the whole website with Sans Serif as the fallback font. The chosen fonts are ideal for the purpose of the website, which is: be fun and trustable.
+
+      ![DynaPuff](documentation/Dynapuff.png)
+
+      ![Roboto](documentation/Roboto.png)
 
    * Imagery
       * The large, background hero image is designed to catch the user's attention. The images on the testimonials page are designed to show users that customers and reviews are real and so are those dogs. The background image on the contact us page is designed to give the website some padding in a page where customers should fill with details only.  
@@ -145,7 +153,7 @@
 
 * Friends were kindly requested to review the website on their own devices to point out any user experience issues. 
 * Daily tests have been made to make sure everything was working to the expected and any issues found have been corrected on the same day.
-* The website was viewed in different devices.
+* The website was loaded in different devices.
 
 ## Additional Testing
 
@@ -169,7 +177,7 @@
 
  ![Testimonials float](documentation/bugFix.png)
  
- In this corrected bug, when the website was viewed on mobile, the text was floating by the image, but only in one of the four testimonials.
+ In this corrected bug, when the website was loaded on mobile, the text was floating by the image, but only in one of the four testimonials.
 
  ## Deployment
 
