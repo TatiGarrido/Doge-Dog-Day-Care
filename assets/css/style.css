@@ -46,7 +46,7 @@ body {
 }
 
 #menu a:hover{
-   color: brown;
+   color: #a52a2a;
 }
 /*----------------------------------  
                section 
@@ -64,7 +64,7 @@ body {
 } 
 
   #text, #text h2 {
-    color: white;
+    color: #ffffff;
     font-size: 18px; 
   }
 
@@ -100,8 +100,8 @@ transform: scale(1.1)
 
  #homeParagraph {
     font-size: 18px;
-    background-color: white; 
-    color: coral;
+    background-color: #ffffff; 
+    color:  #ff7f50;
     letter-spacing: 2px;
     width: 97%;
     padding-top: 10px;
@@ -139,18 +139,18 @@ footer {
     font-size: 150%;
     margin: 0;
     padding: 1%;
-    color:  #ff7f50;;
+    color:  #ff7f50;
 }
 
 .social :hover {
-    color: brown;
+    color: #a52a2a;
 }
 /*----------------------------------  
                Testimonials 
 ---------------------------------- */
 #testmonials {
     clear: both;
-    color: black;
+    color: #000000;
     font-family: Roboto;
     background-color: rgba(244, 166, 116, 0.62);
     
@@ -165,7 +165,7 @@ h3 {
 
 p {
     width: 180%;
-    color: black;
+    color: #000000;
     font-size: 20px;
     margin-bottom: 20px;
     text-align: justify;
@@ -258,7 +258,7 @@ p {
     font-size: 15px;
     font-family: DynaPuff, sans-serif;
     margin-top: 240px;
-    color: black;
+    color: #000000;
     max-width: 400px;  
     left: 30%;
     padding: 30px;
@@ -283,8 +283,8 @@ p {
     margin-top: 10px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
-    background-color: white; 
-    color: black;
+    background-color: #ffffff; 
+    color: #000000;
     margin: 5px 0 20px 0;
     border: 1px solid black;
     margin-left: 150px;
@@ -292,7 +292,7 @@ p {
 }
 
 .button:hover {
-    color: coral;
+    color: #ff7f50;
 }
 
 #background-img {
@@ -308,7 +308,7 @@ p {
     letter-spacing: 3px;
     font-size: 25px;
     margin-top: 300px;
-    color: coral;
+    color:  #ff7f50;
     max-width: 400px;  
     left: 30%;
     padding: 30px;
@@ -502,7 +502,7 @@ p {
         font-size: 15px;
         margin-top: 340px;
         margin-left: 120px;
-        color: black;
+        color: #000000;
         max-width: 400px;
         position: absolute;
         left: 30%;
@@ -514,7 +514,7 @@ p {
         letter-spacing: 3px;
         font-size: 25px;
         margin-top: 450px;
-        color: coral;
+        color:  #ff7f50;
         max-width: 500px;  
         left: 30%;
         padding: 30px;
@@ -534,7 +534,7 @@ p {
     }
 
     #text, #text h2 {
-        color: white;
+        color: #ffffff;
         font-size: 20px; 
       }
     
@@ -576,8 +576,8 @@ p {
 
     #homeParagraph {
         font-size: 18px;
-        background-color: white; 
-        color: coral;
+        background-color: #ffffff; 
+        color:#ff7f50;
         letter-spacing: 2px;
         width: 90%;
      }
@@ -656,7 +656,7 @@ p {
 }
 
 .input {
-    color: black;
+    color: #000000;
     width: 100%;
     height: 20px;
     margin: 5px 0 10px 0;
