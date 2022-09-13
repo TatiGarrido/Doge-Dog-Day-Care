@@ -214,7 +214,7 @@ p {
 .container {
     display: flex;
     align-items: center;
-} /* to put text by the paragraph */
+} 
 
 #left-testmonial {
     width: 48%;
@@ -250,7 +250,6 @@ p {
    margin-bottom: 20px;
     float:right;
 }
-
 /*----------------------------------  
                Contact Us 
 ---------------------------------- */
@@ -686,7 +685,6 @@ footer {
     position: relative;   
 } 
 } 
-
  /*----------------------------------  
           large  tablet
 ---------------------------------- */
